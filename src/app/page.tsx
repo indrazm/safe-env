@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import React from 'react';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
         </p>
+
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
@@ -15,15 +17,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+            By
+            <Image src="/vercel.svg" alt="Vercel Logo" className="dark:invert" width={100} height={24} priority />
           </a>
         </div>
       </div>
@@ -46,13 +41,13 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+          <h2 className="mb-3 text-2xl font-semibold">
+            Docs
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Find in-depth information about Next.js features and API.
           </p>
         </a>
@@ -63,13 +58,13 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
+          <h2 className="mb-3 text-2xl font-semibold">
+            Learn
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Learn about Next.js in an interactive course with&nbsp;quizzes!
           </p>
         </a>
@@ -80,15 +75,13 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+          <h2 className="mb-3 text-2xl font-semibold">
+            Templates
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">Explore the Next.js 13 playground.</p>
         </a>
 
         <a
@@ -97,17 +90,17 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
+          <h2 className="mb-3 text-2xl font-semibold">
+            Deploy
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
     </main>
-  )
+  );
 }
